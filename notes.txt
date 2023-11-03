@@ -85,4 +85,50 @@ Fork is a rough copy
 
 git command list
 ----------------------
+Here's a more comprehensive list of commonly used Git commands, including some additional commands that weren't covered in the previous list:
 
+1. **git init** - Initialize a new Git repository in the current directory.
+2. **git clone [repository_url]** - Clone a remote repository to your local machine.
+3. **git add [file]** - Add changes in a file to the staging area.
+4. **git add .** - Add all changes in the current directory to the staging area.
+5. **git commit -m "message"** - Commit the changes in the staging area with a descriptive message.
+6. **git status** - View the status of your working directory and staged changes.
+7. **git log** - Display a history of commits in the repository.
+8. **git diff** - Show the differences between the working directory and the last commit.
+9. **git branch** - List all branches in the repository.
+10. **git branch [branch_name]** - Create a new branch.
+11. **git checkout [branch_name]** - Switch to a different branch.
+12. **git checkout -b [new_branch_name]** - Create a new branch and switch to it in one step.
+13. **git merge [branch_name]** - Merge changes from one branch into the current branch.
+14. **git pull** - Fetch changes from a remote repository and merge them into the current branch.
+15. **git push** - Push local changes to a remote repository.
+16. **git remote -v** - List remote repositories.
+17. **git remote add [remote_name] [remote_url]** - Add a new remote repository.
+18. **git remote remove [remote_name]** - Remove a remote repository.
+19. **git fetch [remote_name]** - Fetch changes from a remote repository.
+20. **git reset [file]** - Unstage a file.
+21. **git reset --soft [commit_hash]** - Reset to a specific commit, keeping changes staged.
+22. **git reset --mixed [commit_hash]** - Reset to a specific commit, unstaging changes.
+23. **git reset --hard [commit_hash]** - Reset to a specific commit, discarding changes.
+24. **git stash** - Temporarily save uncommitted changes.
+25. **git stash apply** - Apply the most recent stash.
+26. **git stash list** - List all stashes.
+27. **git tag [tag_name]** - Create a new tag at the current commit.
+28. **git tag -l** - List all tags.
+29. **git diff [commit1] [commit2]** - Show differences between two commits.
+30. **git blame [file]** - Display who last modified each line of a file.
+31. **git remote show [remote_name]** - Show information about a remote repository.
+32. **git remote prune [remote_name]** - Remove references to branches on a remote that no longer exist.
+33. **git clean -n** - Show untracked files that would be removed.
+34. **git clean -f** - Remove untracked files.
+35. **git cherry-pick [commit_hash]** - Apply a specific commit from one branch to another.
+36. **git rebase [branch_name]** - Reapply commits from one branch on top of another.
+37. **git log --oneline** - Display a concise history of commits.
+38. **git log --graph** - Show commit history as a graph.
+39. **git show [commit_hash]** - Show the details of a specific commit.
+40. **git fsck --full** - Check the integrity of the Git database.
+41. **git help** - Get help for a specific Git command.
+
+These are some of the most commonly used Git commands. Git provides a wide range of functionality,
+so there are many more commands and options available to help you manage your version control workflow effectively. 
+You can access the Git manual and documentation for more details on specific commands and their usage.
